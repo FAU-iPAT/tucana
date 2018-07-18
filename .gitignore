@@ -1,0 +1,64 @@
+####################
+# Generic Patterns #
+####################
+
+**/gitignore/
+**/.data/
+**/data.*/
+**/_test/
+**/Thumbs.db
+
+
+
+#############################
+# Program Specific Patterns #
+#############################
+
+# PyCharm
+**/\.idea/
+
+# Matlab
+*.m~
+*.asv
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter
+**/\.ipynb_checkpoints/
+
+# Tex intermediate files
+*.log
+*.md5
+*.aux
+*.auxlock
+*.bbl
+*.blg
+*.synctex.gz
+*.dpth
+
+
+###############################
+# Python Environment Patterns #
+###############################
+
+# Python caching directories
+**/\__pycache__/
+
+# Python packaging directories and files
+**/*.egg-info
+**/dist/*.tar.gz
+**/dist/*.egg
+**/dist/*.exe
+**/build/lib/*
+**/build/bdist.*/*
+
+# Python sphinx documentation files
+**/docs/build/
+
+# MyPy caching directory
+**/.mypy_cache/
+
+# Nose and coverage
+**/.coverage
